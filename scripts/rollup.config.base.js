@@ -6,7 +6,7 @@ import babel from 'rollup-plugin-babel';
 import replace from 'rollup-plugin-replace';
 
 export default {
-  input: 'src/main.js',
+  input: 'src/index.js',
   plugins: [
     alias({
       resolve: ['.js']

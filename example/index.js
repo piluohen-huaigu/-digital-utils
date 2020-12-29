@@ -1,5 +1,5 @@
-const element = document.createElement('h1');
+import utils from '../lib/index.cjs'
 
-element.innerHTML = 1;
+console.log(utils)
 
-document.body.appendChild(element);
+// storage.local.set('app', 123)

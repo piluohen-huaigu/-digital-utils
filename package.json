@@ -1,6 +1,6 @@
 {
   "name": "@digital/utils",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "outputName": "index",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -10,7 +10,7 @@
     "babel",
     "starter"
   ],
-  "author": "Leo Hui <leohxj@gmail.com>",
+  "author": "piluohen-huaigu<pi.ss@digitalcnzz.com>",
   "license": "MIT",
   "scripts": {
     "cz": "git-cz",
@@ -22,21 +22,13 @@
     "serve": "serve -p 8080",
     "release": "standard-version"
   },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --write",
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "files": [
     "src",
     "lib/*.js"
   ],
-  "dependencies": {
-    "babel-runtime": "^6.26.0"
-  },
-  "devDependencies": {
+  "private": false,
+  "dependencies": {},
+  "deependencies": {
     "@commitlint/cli": "^5.2.8",
     "@commitlint/config-conventional": "^5.2.3",
     "babel-core": "^6.26.0",
@@ -58,7 +50,7 @@
     "husky": "^0.15.0-beta.16",
     "jest": "^22.0.4",
     "lint-staged": "^6.0.0",
-    "prettier": "^1.9.2",
+    "prettier": "^2.2.1",
     "rimraf": "^2.6.2",
     "rollup": "^0.53.3",
     "rollup-plugin-alias": "^1.4.0",
