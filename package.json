@@ -1,6 +1,7 @@
 {
   "name": "@digital/utils",
   "version": "0.1.0",
+  "outputName": "index",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "unpkg": "lib/index.min.js",
@@ -20,12 +21,6 @@
     "flow": "flow check",
     "serve": "serve -p 8080",
     "release": "standard-version"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -e $GIT_PARAMS"
-    }
   },
   "lint-staged": {
     "src/**/*.js": [

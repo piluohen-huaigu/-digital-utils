@@ -43,6 +43,7 @@ node_modules
 .npm
 .node_repl_history
 
+lib
 
 # assets publish
 # you can ignore lib Folder if you publish your assets with CI to CDN
